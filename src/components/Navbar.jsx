@@ -10,9 +10,9 @@ export default function NavbarComp() {
           <Image src="/Logo.png" width="100" height="100" alt="logo" />
         </Navbar.Brand>
         <Nav>
-          <Nav.Link href="#deets">About</Nav.Link>
-          <Nav.Link href="#memes">Work</Nav.Link>
-          <Nav.Link href="#deets">Contact</Nav.Link>
+          <Nav.Link className="text-light" href="#deets">About</Nav.Link>
+          <Nav.Link className="text-light" href="#memes">Work</Nav.Link>
+          <Nav.Link className="text-light" href="#deets">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

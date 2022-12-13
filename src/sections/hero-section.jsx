@@ -1,41 +1,53 @@
 import React from "react";
 import Image from "next/image";
+
 import { Button, Col, Container, Row } from "react-bootstrap";
+
+import H2 from "../components/htmlElements/H2";
+import H1 from "../components/htmlElements/H1";
 
 const buttonOne = {
   background: "transparent",
-  color: "#ffa48b",
-  border: "solid 1px #ffa48b",
+  color: "rgba(149,9,255,1)",
+  border: "solid 1px rgba(149,9,255,1)",
   padding: "12px 24px",
-  boxShadow:
-    "6px 6px 30px 4px rgb(255 125 89 / 2%), 3px 3px 15px 2px rgb(255 125 89 / 3%), 2px 2px 8px 1px rgb(255 125 89 / 2%);",
 };
 const buttonTwo = {
   padding: "13px 24px",
-  background: "linear-gradient(to right,#fe8c4d, #f4494e)",
+  background:
+    "linear-gradient(135deg, rgba(61,0,142,1) 0%, rgba(149,9,255,1) 100%)",
   border: "transparent",
   marginLeft: "25px",
-  boxShadow:
-    "6px 6px 30px 4px rgb(255 125 89 / 2%), 3px 3px 15px 2px rgb(255 125 89 / 3%), 2px 2px 8px 1px rgb(255 125 89 / 2%);",
 };
 
 export default function HeroSection() {
   return (
     <Container>
-      <Row style={{ padding: "140px 12px 80px 12px" }}>
-        <Col sm={8}>
-          <h2 className="h2">Hi, my name is Atishay</h2>
-          <h1 className="h1 fw-bold pt-4 pb-5">
+      <Row
+        style={{ padding: "100px 0px 50px 0px" }}
+        className="justify-content-between align-items-center"
+      >
+        <Col sm={7}>
+          <H2 classes="text-light">Hi, my name is Atishay Jain</H2>
+          <H1 classes="pt-4 pb-5 text-light" fw="bold">
             I&apos;m a Frontend Developer with a non-tech. background
-          </h1>
+          </H1>
           <div>
             <Button style={buttonOne}>My Work</Button>
             <Button style={buttonTwo}>Let&apos;s Talk</Button>
           </div>
         </Col>
         <Col sm={4}>
-          <div style={{ top: "-70px", position: "relative" }}>
-            <Image src="/pic.jpg" width={350} height={474} alt="hero-img" layout="responsive" />
+          <div style={{ position: "relative" }}>
+            <Image
+              src="/pic.jpg"
+              width={350}
+              height={574}
+              alt="hero-img"
+              className="p-2 border border-2 border-dark"
+              style={{ borderRadius: "200px 200px 20px 20px" }}
+              layout="responsive"
+            />
           </div>
         </Col>
       </Row>

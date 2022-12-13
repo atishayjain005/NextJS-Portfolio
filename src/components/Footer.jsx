@@ -4,7 +4,8 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <div className="bg-light">
+    <div className="bg-black">
+    <hr/>
       <Container>
         <Row className="align-items-center py-5">
           <Col>
@@ -15,13 +16,13 @@ export default function Footer() {
                 </a>
               </Col>
               <Col sm={10}>
-                <p className="m-0">Atishay Jain</p>
-                <p className="m-0">Frontend Developer</p>
+                <p className="m-0 text-light">Atishay Jain</p>
+                <p className="m-0 text-light">Frontend Developer</p>
               </Col>
             </Row>
           </Col>
           <Col className="text-end">
-            <p className="m-0">
+            <p className="m-0 text-light">
               © 2022 Kristina Volchek
               <br />
               made on Webflow
