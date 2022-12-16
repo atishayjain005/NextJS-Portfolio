@@ -22,8 +22,8 @@ export default function HeroSection() {
             I&apos;m a Frontend Developer
           </H1>
           <div className="d-flex gap-3">
-            <Button css={styles.buttonOne}>My Work</Button>
-            <Button css={styles.buttonTwo}>Let&apos;s Talk</Button>
+            <a href="#my_work" css={styles.buttonOne}>My Work</a>
+            <a href="#contact_me" css={styles.buttonTwo}>Let&apos;s Talk</a>
           </div>
         </Col>
         <Col sm={4}>

@@ -5,6 +5,13 @@ export const buttonOne = css`
   color: rgba(149, 9, 255, 1);
   border: solid 1px rgba(149, 9, 255, 1);
   padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: rgba(149, 9, 255, 1);
+    opacity: 80%;
+  }
 `;
 
 export const buttonTwo = css`
@@ -16,4 +23,12 @@ export const buttonTwo = css`
   );
   border: transparent;
   marginleft: 25px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: white;
+    opacity: 80%;
+  }
 `;
