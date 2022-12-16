@@ -34,7 +34,7 @@ export default function ContactUs() {
               <p className="text-light h5 fw-light m-0 ">
                 <a
                   className="m-0 text-decoration-none text-light"
-                  href="/AtishayJainFinal.pdf"
+                  href="/resumeF.pdf"
                   target="_blank"
                 >
                   Take a look at my resume
