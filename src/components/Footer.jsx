@@ -5,9 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Footer() {
   return (
     <div className="bg-black">
-    <hr/>
+      <hr />
       <Container>
-        <Row className="align-items-center py-5">
+        <Row className="align-items-center py-5 flex-sm-row flex-column text-center gap-sm-2 gap-3 text-sm-start">
           <Col>
             <Row className="align-items-center">
               <Col sm={2}>
@@ -21,11 +21,11 @@ export default function Footer() {
               </Col>
             </Row>
           </Col>
-          <Col className="text-end">
+          <Col className="text-sm-end">
             <p className="m-0 text-light">
-              © 2022 Kristina Volchek
+              Copyright © 2022 Atishay Jain
               <br />
-              made on Webflow
+              -All Rights Reserved
             </p>
           </Col>
         </Row>

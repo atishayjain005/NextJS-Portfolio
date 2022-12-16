@@ -1,9 +1,10 @@
+/** @jsxImportSource @emotion/react */
 import Image from "next/image";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import H2 from "../components/htmlElements/H2";
-import H3 from "../components/htmlElements/H3";
-import P from "../components/htmlElements/P";
+import H2 from "../../components/htmlElements/H2";
+import H3 from "../../components/htmlElements/H3";
+import P from "../../components/htmlElements/P";
 
 const card = {
   display: "flex",
@@ -60,17 +61,19 @@ export default function WhatIDo({ whatIDoData }) {
             />
           </div>
         </div>
-        <div
-          style={{}}
-          className="d-flex flex-column flex-sm-row gap-3 text-center"
-        >
+        <div className="d-flex flex-column flex-sm-row gap-3 text-center">
           {whatIDoData.map((data, index) => {
             const { header, title, content, link, cta } = data;
             return (
               <Col sm={6} key={index} className="bg-dark text-light p-5">
                 <div style={card}>
                   <H3>{title}</H3>
-                  <P classes="text-light h5 ">{content}</P>
+                  <P classes="text-light d-flex flex-column flex-sm-row justify-content-evenly h5 ">
+                    {content.map((lang) => (
+                      <span key={lang}>{lang}</span>
+                    ))}
+                  </P>
+
                   {/* {link && <a href={link}>{link}</a>}
                 {cta && <Button>{cta}</Button>} */}
                 </div>

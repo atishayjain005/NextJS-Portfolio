@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -10,6 +11,7 @@ export default function AboutUs() {
           " linear-gradient(135deg, rgba(61,0,142,1) 0%, rgba(149,9,255,1) 100%)",
       }}
       className="shadow-lg"
+      id='about_me'
     >
       <Container>
         <Row
@@ -17,7 +19,7 @@ export default function AboutUs() {
           className="justify-content-between align-items-center"
         >
           <Col sm={5}>
-            <div style={{ position: "relative" }}>
+            <div style={{ position: "relative" }} className='mb-sm-0 mb-4'>
               <Image
                 src="/pic2.JPG"
                 width={496}

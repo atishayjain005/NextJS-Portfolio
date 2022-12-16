@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import WhatIDo from "../sections/what-i-do";
-import HeroSection from "../sections/hero-section";
-import ContactUs from "../sections/contact-us";
-import Work from "../sections/work";
-import AboutUs from "../sections/about-us";
+import WhatIDo from "../sections/Skills/what-i-do";
+import HeroSection from "../sections/Hero/hero-section";
+import ContactUs from "../sections/Contact/contact-us";
+import Work from "../sections/Work/work";
+import AboutUs from "../sections/About/about-us";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -14,21 +14,14 @@ const whatIDoData = [
   {
     image: "",
     title: "Languages I speak:",
-    content: (
-      <>
-        HTML,&nbsp;&nbsp;CSS,&nbsp;&nbsp;Sass,&nbsp;&nbsp;JavaScript,&nbsp;&nbsp;ReactJS,&nbsp;&nbsp;NextJS
-      </>
-    ),
+    content: ["HTML", "CSS", "Sass", "JavaScript", "ReactJS", "NextJS"],
+
     link: "#contact-us",
   },
   {
     image: "",
     title: "Dev Tools:",
-    content: (
-      <>
-        VSCode,&nbsp;&nbsp;Bitbucket,&nbsp;&nbsp;Bootstrap,&nbsp;&nbsp;Github,&nbsp;&nbsp;Vercel
-      </>
-    ),
+    content: ["VSCode", "Bitbucket", "Bootstrap", "Github", "Vercel"],
     cta: "Learn more",
   },
 ];
@@ -39,18 +32,21 @@ const workExp = [
     subTitle: "Freelance Frontend Developer",
     content: (
       <>
-        Learned new skills and applied to daily tasks to improve efficiency and
-        productivity
+        Worked with YC funded client in Headspur.it
         <br />
         <br />
-        Exceeded goals through effective task prioritization and great work
-        ethic.
+        Developed various features while keeping code optimized and easy to
+        read.
         <br />
         <br />
-        Actively listened to customers requests, confirming full understanding
+        Gave suggestions for keeping minimalistic designs, and implemented them.
+        <br />
+        <br />
+        Actively listened to clients requests, confirming full understanding
         before addressing concerns.
       </>
     ),
+    techStack: "ReactJS, NextJS, vanilla JS, JSS, Bootstrap",
     image: "/project1.png",
   },
   {
@@ -69,6 +65,7 @@ const workExp = [
         and then buying it for a certain amount .
       </>
     ),
+    techStack: "NextJS, vanilla JS, nx, Bootstrap, Framer",
     image: "/project2.png",
   },
   {
@@ -76,16 +73,22 @@ const workExp = [
     subTitle: "Freelance Frontend Developer",
     content: (
       <>
+        Built TranslateZ&apos;s official site from scratch, making reusable and
+        optimized components.
+        <br />
+        <br />
         Reviewed code, debugged problems and corrected issues.
         <br />
-        <br /> Contributed ideas and suggestions in team meetings and delivered
-        updates on deadlines, designs and enhancements.
+        <br />
+        Contributed ideas and suggestions in team meetings and delivered updates
+        on deadlines, designs and enhancements.
         <br />
         <br />
         Consulted with engineering team members to determine system loads and
         develop improvement plans
       </>
     ),
+    techStack: "NextJS, EmotionJS, Bootstrap, GraphQL, Strapi, Framer",
     image: "/project3.png",
   },
 ];
