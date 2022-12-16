@@ -7,7 +7,7 @@ export default function ContactUs() {
   return (
     <Container id="contact_me">
       <Row style={{ padding: "200px 0px" }} className="justify-content-between">
-        <Col sm={12} className="text-center">
+        <Col md={12} className="text-center">
           <h2
             className="fw-bold h1  mb-5"
             style={{ color: "rgba(149,9,255,1)" }}
@@ -19,7 +19,7 @@ export default function ContactUs() {
             presence or help with your design challenges.
           </p>
           <Row className="justify-content-center  gap-3 ">
-            <Col sm={4} className="bg-dark mt-4 p-4">
+            <Col lg={4} className="bg-dark mt-4 p-4">
               <p className="text-light h5  fw-light m-0">
                 <span>Email me at :</span>&nbsp;
                 <a
@@ -30,7 +30,7 @@ export default function ContactUs() {
                 </a>
               </p>
             </Col>
-            <Col sm={4} className="bg-dark mt-4 p-4">
+            <Col lg={4} className="bg-dark mt-4 p-4">
               <p className="text-light h5 fw-light m-0 ">
                 <a
                   className="m-0 text-decoration-none text-light"

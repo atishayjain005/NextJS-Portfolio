@@ -15,9 +15,9 @@ export default function Work({ workExp }) {
             return (
               <Row
                 key={index}
-                className="mt-5 pb-5 align-items-start justify-content-between flex-sm-row flex-column-reverse"
+                className="mt-5 pb-5 align-items-start justify-content-between flex-md-row flex-column-reverse"
               >
-                <Col sm={6} className="py-2 pe-5">
+                <Col md={6} className="py-2 pe-5">
                   <div>
                     <h3 className="mb-1 text-light">{title}</h3>
                     <blockquote
@@ -34,7 +34,7 @@ export default function Work({ workExp }) {
                     <span className="text-light">{techStack}</span>{" "}
                   </p>
                 </Col>
-                <Col sm={5} className="text-end mb-sm-0 mb-4">
+                <Col md={5} className="text-end mb-md-0 mb-4">
                   <div
                     style={{
                       position: "relative",

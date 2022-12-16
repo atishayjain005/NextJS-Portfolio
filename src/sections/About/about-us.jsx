@@ -18,8 +18,8 @@ export default function AboutUs() {
           style={{ padding: "100px 0px" }}
           className="justify-content-between align-items-center"
         >
-          <Col sm={5}>
-            <div style={{ position: "relative" }} className='mb-sm-0 mb-4'>
+          <Col md={5}>
+            <div style={{ position: "relative" }} className='mb-md-0 mb-4'>
               <Image
                 src="/pic2.JPG"
                 width={496}
@@ -31,7 +31,7 @@ export default function AboutUs() {
               />
             </div>
           </Col>
-          <Col sm={6}>
+          <Col md={6}>
             <h2 className="mb-5 fw-bold text-light h1">You should hire me because</h2>
             <p className="text-light h5 fw-normal  ">
               I am an experienced frontend developer with a keen eye for design.

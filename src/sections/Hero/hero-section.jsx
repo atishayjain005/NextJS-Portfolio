@@ -14,9 +14,9 @@ export default function HeroSection() {
     <Container>
       <Row
         style={{ padding: "100px 0px 50px 0px" }}
-        className="justify-content-between align-items-center flex-column-reverse flex-sm-row "
+        className="justify-content-between align-items-center flex-column-reverse flex-md-row "
       >
-        <Col sm={7}>
+        <Col md={7}>
           <H2 classes="text-light">Hi, my name is Atishay Jain</H2>
           <H1 classes="pt-4 pb-5 text-light display-4" fw="bold">
             I&apos;m a Frontend Developer
@@ -26,8 +26,8 @@ export default function HeroSection() {
             <a href="#contact_me" css={styles.buttonTwo}>Let&apos;s Talk</a>
           </div>
         </Col>
-        <Col sm={4}>
-          <div style={{ position: "relative" }} className="mb-sm-0 mb-5">
+        <Col md={4}>
+          <div style={{ position: "relative" }} className="mb-md-0 mb-5">
             <Image
               src="/pic.jpg"
               width={350}
