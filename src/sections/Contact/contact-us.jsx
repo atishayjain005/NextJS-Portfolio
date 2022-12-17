@@ -9,7 +9,7 @@ export default function ContactUs() {
       <Row style={{ padding: "200px 0px" }} className="justify-content-between">
         <Col md={12} className="text-center">
           <h2
-            className="fw-bold h1  mb-5"
+            className="fw-bold display-4  mb-5"
             style={{ color: "rgba(149,9,255,1)" }}
           >
             Contact me!

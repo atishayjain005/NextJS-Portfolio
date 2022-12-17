@@ -48,6 +48,7 @@ const workExp = [
     ),
     techStack: "ReactJS, NextJS, vanilla JS, JSS, Bootstrap",
     image: "/project1.png",
+    link: "http://www.headspur.it/",
   },
   {
     title: "10xTechLabs",
@@ -67,6 +68,7 @@ const workExp = [
     ),
     techStack: "NextJS, vanilla JS, nx, Bootstrap, Framer",
     image: "/project2.png",
+    link: "https://translatez.co/",
   },
   {
     title: "TranslateZ",
@@ -90,6 +92,7 @@ const workExp = [
     ),
     techStack: "NextJS, EmotionJS, Bootstrap, GraphQL, Strapi, Framer",
     image: "/project3.png",
+    link: "https://www.10xtechlabs.com/",
   },
 ];
 

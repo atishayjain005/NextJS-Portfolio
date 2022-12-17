@@ -7,7 +7,7 @@ export default function NavbarComp() {
     <Navbar>
       <Container>
         <Navbar.Brand href="#home">
-          <Image src="/Logo.png" width="100" height="100" alt="logo" />
+          <Image src="/Logo.png" width="70" height="70" alt="logo" className='rounded-3' />
         </Navbar.Brand>
         <Nav>
           <Nav.Link className="text-light" href="#about_me">About</Nav.Link>
