@@ -6,7 +6,7 @@ export default function NavbarComp() {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand >
           <Image src="/Logo.png" width="70" height="70" alt="logo" className='rounded-3' />
         </Navbar.Brand>
         <Nav>
