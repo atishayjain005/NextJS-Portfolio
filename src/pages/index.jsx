@@ -99,6 +99,9 @@ const workExp = [
 export default function Home() {
   return (
     <div className="bg-black">
+      <Head>
+        <title>Portfolio | Atishay Jain</title>
+      </Head>
       <Navbar />
       <HeroSection />
       <WhatIDo whatIDoData={whatIDoData} />
