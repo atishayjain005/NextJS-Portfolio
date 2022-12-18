@@ -68,7 +68,7 @@ const workExp = [
     ),
     techStack: "NextJS, vanilla JS, nx, Bootstrap, Framer",
     image: "/project2.png",
-    link: "https://translatez.co/",
+    link: "https://www.10xtechlabs.com/",
   },
   {
     title: "TranslateZ",
@@ -92,7 +92,7 @@ const workExp = [
     ),
     techStack: "NextJS, EmotionJS, Bootstrap, GraphQL, Strapi, Framer",
     image: "/project3.png",
-    link: "https://www.10xtechlabs.com/",
+    link: "https://translatez.co/",
   },
 ];
 
